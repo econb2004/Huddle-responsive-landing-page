@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+*,
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100vw;
+    height: auto;
+    font-family: 'Poppins', sans-serif;
+    Font-size: 18px;
+    overflow-x: hidden;
+}
+
+button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+.under-backG {
+    width: 100vw;
+    height: 60vh;
+    padding: 10em 0 0 0;
+}
+
+.backG {
+    background: url("./bg-hero-desktop.svg") repeat hsl(132, 56%, 89%);
+    
+    /* background-image: url("./bg-hero-desktop.svg") repeat #aeaecc; */
+
+}
+
+.top-head {
+
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.navlogo {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.navbtn{
+    margin-top: 2em;
+    margin-right: 2em;
+}
+
+
+button:hover,
+button:active {
+    color: rgb(243, 230, 230);
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+
+button {
+    height: 3.5rem;
+    width: 9rem;
+    border-radius: 1rem;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+.mainText {
+    width: 50%;
+}
+
+.mainImage {
+    width: 50%;
+    object-fit: contain;
+}
+
+.image1 {
+    width: 20rem;
+    height: 20rem;
+}
+
+.text2 {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+/* second part */
+.main-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 60vh;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: rgb(241, 232, 232);
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.mainText2 {
+    width: 50%;
+}
+
+.text3 {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+.mainImage2 {
+    width: 50%;
+    object-fit: contain;
+}
+
+
+
+/* Third part */
+.main-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 60vh;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    margin-right: 30em;
+    border-color: rgb(241, 232, 232);
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.mainText3 {
+    width: 50%;
+}
+
+.text4 {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+.mainImage3 {
+    width: 50%;
+    object-fit: contain;
+}
+
+/* fourth part */
+.main-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 60vh;
+    background-color: white;
+    border-style: solid;
+    border-width: 0.1rem;
+    margin-right: 30em;
+    border-color: rgb(241, 232, 232);
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.mainText4 {
+    width: 50%;
+}
+
+.text5 {
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: gray;
+}
+
+.mainImage4 {
+    width: 50%;
+    object-fit: contain;
+}
+
+
+/* Last part for footer */
+
+footer {
+    background-color: #00252e;
+    font-family: 'Poppins', sans-serif;
+    Font-size: 10px;
+    width: 90vw;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    color: aliceblue;
+    font-size: 0.6rem;    
+}
+ 
+.foot-grid {
+    display: flex;
+    
+}
+
+.foot-items {
+    width: 25%;
+    height: 30vh;
+    padding: 4rem 0 4em 6.5em;
+    background-color: #00252e;
+}
+li{ 
+    margin-bottom: 0.9rem;
+    list-style: none;
+    columns: 1;
+}
+.foot-items1 {
+    width: 25%;
+    height: 30vh;
+    padding: 4rem 0 0 0;
+    background-color: #00252e;
+}
+.social-icons{
+    margin: 1em 2em 11em 0em;
+    height: 10vh;
+    width: 90%;
+    background-color: #00252e;
+    
+    
+}
+
+.copyright{
+    background-color: #00252e;
+}
+
+.loc{
+    display: flex;
+}
+
+.img-li{
+padding-right: 2em;
+}
+
+
+a.locc:link {
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+@media (max-width: 500vw) {
+    .main {
+        width: 100vw;
+    }
+
+    .mainText2 {
+        width: 100vw;
+    }
+
+    .mainText3 {
+        width: 100vw;
+    }
+
+    .mainText4 {
+        width: 100vw;
+    }
+
+    .footer {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navlogo {
+        margin-bottom: 2em;
+    }
+
+    .foot-items {
+        width: 100vw;
+    }
+
+    .foot-items1 {
+        width: 100vw;
+    }
+
+}
